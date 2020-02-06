@@ -1,26 +1,31 @@
 /**
- * Write a description of class SumOfInput here.
+ * Sum of numbers 1 to n
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (April Howard)
+ * @version (02/05/2020)
  */
 public class SumOfInput
 {
+    
     // instance variables - replace the example below with your own
-    private Integer sum;
-
+    
+   public int num;
+   
+    
     /**
      * Constructor for objects of class SumOfInput
      */
     public SumOfInput()
     {
         // initialise instance variables
-        sum = 0;
+        num = 0;
+      
     }
-    
+        
     public Integer oneToNumber(Integer numberToSum){
-
-        return sum;
+        for (int i = 1; i <= numberToSum; i++) {
+        num += i; 
     }
-
+        return num;
+    }
 }

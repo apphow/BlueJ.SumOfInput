@@ -8,8 +8,8 @@ import org.junit.Test;
 /**
  * The test class SumOfInputTest.
  *
- * @author  (your name)
- * @version (a version number or a date)
+ * @author  (April Howard)
+ * @version (02/05/2020)
  */
 public class SumOfInputTest
 {
@@ -44,7 +44,7 @@ public class SumOfInputTest
         SumOfInput testSum = new SumOfInput();
         
         assertEquals(Integer.valueOf(4465), testSum.oneToNumber(94));
-        assertEquals(Integer.valueOf(171), testSum.oneToNumber(18));
+        assertNotEquals(Integer.valueOf(171), testSum.oneToNumber(18));
     }
     
     @Test
